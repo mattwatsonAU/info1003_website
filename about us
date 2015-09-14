@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> About Us</title>
+	
+	<link rel="stylesheet" href= "reset.css"/>
+	<link rel="stylesheet" href= "about.css"/>
+
+</head>
+<body background="C:\Users\keli5734\Desktop\halfheart.gif">
+	<div id="header">
+
+	
+	 <p>
+	 <a class="title"><h2>WE CARE ABOUT U</h2></a>
+	 <ul class="connect">
+	 <a href="homepage.html">HomePage</a>&nbsp;&nbsp;&nbsp;
+	 <a href="BMI.html">BMI</a>&nbsp;&nbsp;&nbsp;
+	 <a href="About Us.html">About us</a>
+	 </ul>
+	 </p>
+    </div>
+
+
+<div id="content">
+<h1><em><strong> About Us </strong></em></h1>
+	<ul> 
+			<li><em>Ke Li,  keli5734, CSS parts and html pages</em></li> 
+			<li>Matt Watson</li>
+			<li>Robin Nandy</li>
+					
+	</ul>
+	
+</div>
+<div id="login">
+	<legend><strong>Login</strong></legend>
+	<form>
+	    <label for="UserName:"> UserName:</label>
+	    <input id="UserName" name="comments"  required=" " autofocus=" " type="text" />
+	</form>
+	<form>
+		<label for="Password :"> Password : </label>
+		<input id="Password: " name="comments"  required=" " autofocus=" " type="text" />
+	</form>
+ <a href="Login.html"> <input id="Login" type="Submit" value="Login"></a>
+ <a href="Register.html"> <input id="Login" type="Submit" value="Register"></a>
+ </div>
+
+<div id="footer">
+	<ul>	
+	    <a href="Privacy Policy.html">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
+	    <a href="Site Map.html">Site Map</a>&nbsp;&nbsp;&nbsp;
+		<a href="Helpdesk-FAQ.html">FAQ</a>&nbsp;&nbsp;&nbsp;
+		<a href="Feedback.thml">FeedBack</a>&nbsp;&nbsp;&nbsp;
+		<a href="Contact Us.html">Contact Us</a>
+	</ul>
+		<p>&copy;2015 All Rights Reserved healthy.me</p>	 
+	</div>
+	</body>
+</html>
+	</html>
