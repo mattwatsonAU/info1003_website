@@ -1,5 +1,26 @@
+*{
+	font-family: "Arial Black", Gadget, sans-serif
+
+}
+
 .banner{
-	background-color: #d68956;
+	background-color: #66CD00;
+	float: left;
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+}
+.nav{
+	background-color: #66CD00;
+	float: left;
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
 }
 .sidebar{
 	height: 500px;
@@ -15,50 +36,6 @@ a{
 	font-size: 20px;
 }
 
-div#content{
-margin:0 auto;
-margin-top:110px;
-width:500px;
-height:1100px;
-}
-div#content h1{
-text-transform:uppercase;
-margin:0 auto;
-font-size:100px;
-text-align:center;
-text-shadow:10px 10px 10px black;
-}
-div#content h2{
-margin:0 auto;
-font-size:30px;
-text-align:left;
-line-height:300%;
-}
-div#content ul{
-margin:0 auto;
-font-size:35px;
-text-align:justify;
-line-height:200%;
-text-decoration: underline; 
-
-}
-div#content p{
-margin:0 auto;
-font-size:25px;
-text-align:justify;
-line-height:200%;
-
-}
-div#header{
-    position:fixed;
-    top:0px;left:320px;
-    clear: both;
-	margin: 0 auto;
-	padding: 0;
-	width: 1250px;
-	height: 100px;
-	background: #CCFF66; 
-	}
 .title{
 font-size:70px;
 margin:10 auto;
@@ -69,45 +46,23 @@ text-shadow:5px 5px 5px grey;
 }
 
 
-.connect{
-font-size:20px;
-color:white;
-position:absolute;
-left:500px;
-top:75px;
-}
-
-
-div#login{
-background:#FED944;
-width:200px;
-height:140px;
-position:fixed;
-left:10px;
-top:250px;
-color:red;
-font-size:10px;
-border:5px solid red;
-}
-div#login legend{
-margin:0 auto;
-font-size: 20px;
-}
-div#login form{
-margin-left:10px;
-font-size:15px;
-}
-div#login a{
-margin-left:25px;
+.nav{
+background-color: #66CD00;
+	float: left;
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
 }
 div#footer{
 	clear: both;
 	margin: 0 auto;
 	padding: 0;
 	width: 1250px;
-	height: 40px;
+	height: 10%;
 	background: #b6b6b6;
-	}
+}
 div#footer p{
  float:bottom;
  padding:0px;
