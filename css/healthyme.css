@@ -172,9 +172,9 @@ p {
 }
 .faqs-div {
   display: block;
-  width: 1100px;
-  margin-right: 5%;
-  margin-left: 5%;
+  width: auto;
+  margin-right: 40px;
+  margin-left: 40px;
   padding-bottom: 30px;
 }
 .faqs-para {
