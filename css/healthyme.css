@@ -130,7 +130,7 @@ p {
   padding-top: 40px;
 }
 .about-us {
-  background-image: url("images/gym.jpg");
+  background-image: url("../images/gym.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
