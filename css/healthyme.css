@@ -181,6 +181,8 @@ p {
   color: #333;
   text-align: left;
 }
+
+/*This is where the scaling magic happens*/
 @media (max-width: 991px) {
   .hero-section {
     height: 500px;
