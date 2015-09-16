@@ -22,7 +22,7 @@
     <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
       <div class="w-container">
         <a class="w-nav-brand" href="#">
-          <div class="textlogo">BMI&nbsp;SPECIALISTS</div>
+          <div class="textlogo">Creating&nbsp;a&nbsp;healthier&nbsp;you</div>
         </a>
         <nav class="w-nav-menu" role="navigation"><a class="w-nav-link topnav-link" href="index.html">Home</a><a class="w-nav-link topnav-link" href="bmi-calculator.html">BMI Calculator</a><a class="w-nav-link topnav-link" href="about-us.html">About Us</a><a class="w-nav-link topnav-link" href="contact-us.html">Contact Us</a><a class="w-nav-link topnav-link" href="login.html">Login</a>
         </nav>
@@ -34,16 +34,26 @@
   </div>
   <div class="w-section about-us">
     <div class="about-us-div">
-      <h2 class="aboutus-header">BMI&nbsp;CALCULATOR</h2>
-      <p class="about-us-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      <p class="about-us-para">Matt Watson
-        <br>Jeremy Li
-        <br>Robin Nandy
-        <br>Geng Mao</p>
+      <div class="w-form">
+        <form id="email-form" name="email-form" data-name="Email Form">
+          <label class="contact-label" for="name">Gender:</label>
+          <input class="w-input contact-field" id="name" type="text" placeholder="Enter Male/Female" name="name" data-name="Name">
+          <label class="contact-label" for="email">Weight(kg):</label>
+          <input class="w-input contact-field" id="email" type="email" placeholder="Enter your weight in kilograms" name="email" data-name="Email" required="required">
+          <label class="contact-label" for="email">Height(cm):</label>
+          <input class="w-input contact-field" id="email" type="email" placeholder="Enter your height in centimetres" name="email" data-name="Email" required="required">
+          <input class="w-button button contact-button" type="submit" value="Submit" data-wait="Please wait...">
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form</p>
+        </div>
     </div>
   </div>
   <div class="w-section footer-section">
-    <div class="textlogo foooter-spacing">BMI&nbsp;SPECIALISTS</div>
+    <div class="textlogo foooter-spacing">Creating&nbsp;a&nbsp;healthier&nbsp;you</div>
     <div class="footer-links"><a class="footer-linktext" href="privacy.html">Privacy Policy</a><a class="footer-linktext" href="sitemap.html">Site Map</a><a class="footer-linktext" href="faqs.html">FAQs</a><a class="footer-linktext" href="contact-us.html">Contact Us</a>
     </div>
   </div>
