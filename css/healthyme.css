@@ -29,8 +29,8 @@ p {
 }
 .hero-section {
   height: 700px;
-  background-image: -webkit-radial-gradient(50% 50%, circle, rgba(0, 0, 0, 0.29), rgba(255, 255, 255, 0) 97%), url('../images/hero-banner.jpg');
-  background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.29), rgba(255, 255, 255, 0) 97%), url('../images/hero-banner.jpg');
+  background-image: -webkit-radial-gradient(50% 50%, circle, rgba(0, 0, 0, 0.29), rgba(255, 255, 255, 0) 97%), url("../images/hero-banner.jpg");
+  background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.29), rgba(255, 255, 255, 0) 97%), url("../images/hero-banner.jpg");
   background-position: 0px 0px, 50% 92%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -130,7 +130,7 @@ p {
   padding-top: 40px;
 }
 .about-us {
-  background-image: url('../images/gym.jpg');
+  background-image: url("images/gym.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -183,8 +183,7 @@ p {
 }
 
 /*This is where the scaling magic happens*/
-@media (max-width: 991px) {
-  .hero-section {
+@media (max-width: 991px) {.hero-section {
     height: 500px;
   }
   .hero-header {
@@ -204,16 +203,12 @@ p {
     width: auto;
     padding-right: 40px;
     padding-left: 40px;
-  }
-}
-@media (max-width: 767px) {
-  .footer-section {
+  }}
+@media (max-width: 767px) {.footer-section {
     height: auto;
     padding-bottom: 50px;
-  }
-}
-@media (max-width: 479px) {
-  .footer-links {
+  }}
+@media (max-width: 479px) {.footer-links {
     width: auto;
   }
   .footer-linktext {
@@ -221,6 +216,5 @@ p {
   }
   .contact-field {
     width: 200px;
-  }
-}
+  }}
 
