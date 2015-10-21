@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html data-wf-site="55f7f404f9ff0b3c341955ef" data-wf-page="55f7fd103695b60d5515cca2">
+<head>
+  <meta charset="utf-8">
+  <title>healthyme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/dreamweaver.css">
+  <link rel="stylesheet" type="text/css" href="css/healthyme.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Oswald:300,400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+      }
+    });
+  </script>
+</head>
+<body>
+  <div class="w-section">
+    <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container">
+        <a class="w-nav-brand" href="#">
+          <div class="textlogo"><div class="textlogo">Creating&nbsp;a&nbsp;healthier&nbsp;you</div>
+        </a>
+        <nav class="w-nav-menu" role="navigation">
+          <a class="w-nav-link topnav-link" href="index.html">Home</a>
+          <a class="w-nav-link topnav-link" href="bmi-calculator.html">BMI Calculator</a>
+          <a class="w-nav-link topnav-link" href="about-us.html">About Us</a>
+          <a class="w-nav-link topnav-link" href="contact-us.html">Contact Us</a>
+          <a class="w-nav-link topnav-link" href="login.html">Login</a>
+        </nav>
+        <div class="w-nav-button mobile-menu">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section about-us">
+    <div class="about-us-div">
+      <h2 class="aboutus-header">Contact us</h2>
+      <p class="about-us-para">You can get in contact with the team at healthy.me by filling out the following form:</p>
+      <div class="w-form">
+      <form name="contactform" method="post" action="send_form_email.php">
+      <table width="450px">
+      <tr>
+      <td valign="top">
+      <label for="first_name">First Name *</label>
+      </td>
+      <td valign="top">
+      <input  type="text" name="first_name" maxlength="50" size="30">
+      </td>
+      </tr>
+      <tr>
+      <td valign="top"">
+      <label for="last_name">Last Name *</label>
+      </td>
+      <td valign="top">
+      <input  type="text" name="last_name" maxlength="50" size="30">
+      </td>
+      </tr>
+      <tr>
+      <td valign="top">
+      <label for="email">Email Address *</label>
+      </td>
+      <td valign="top">
+      <input  type="text" name="email" maxlength="80" size="30">
+      </td>
+      </tr>
+      <tr>
+      <td valign="top">
+      <label for="telephone">Telephone Number</label>
+      </td>
+      <td valign="top">
+      <input  type="text" name="telephone" maxlength="30" size="30">
+      </td>
+      </tr>
+      <tr>
+      <td valign="top">
+      <label for="comments">Comments *</label>
+      </td>
+      <td valign="top">
+      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2" style="text-align:center">
+      <input type="submit" value="Submit">   <a href="healthy.me/email_form.php">Email Form</a>
+      </td>
+      </tr>
+      </table>
+      </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form</p>
+        </div>
+      </div>
+      <a class="w-button button" href="evaluation.html">Evaluation</a>
+      <a class="w-button button" href="styleguide.html">Styleguide</a>
+    </div>
+  </div>
+  <div class="w-section footer-section">
+    <div class="textlogo foooter-spacing">Creating&nbsp;a&nbsp;healthier&nbsp;you</div>
+    <div class="footer-links">
+      <a class="footer-linktext" href="privacy.html">Privacy Policy</a>
+      <a class="footer-linktext" href="sitemap.html">Site Map</a>
+      <a class="footer-linktext" href="faqs.html">FAQs</a>
+      <a class="footer-linktext" href="contact-us.html">Contact Us</a>
+    </div>
+  </div>
+</body>
+</html>
