@@ -45,10 +45,10 @@
           <label class="contact-label" for="name">Gender:</label>
           <input class="w-input contact-field" id="name" type="text" placeholder="Enter Male/Female" name="name" data-name="Name">
           <label class="contact-label" for="email">Weight(kg):</label>
-          <input class="w-input contact-field" id="email" type="email" placeholder="Enter your weight in kilograms" name="email" data-name="Email" required="required">
+          <input class="w-input contact-field" id="email"  placeholder="Enter your weight in kilograms" name="weight" data-name="Email" required="required">
           <label class="contact-label" for="email">Height(cm):</label>
-          <input class="w-input contact-field" id="email" type="email" placeholder="Enter your height in centimetres" name="email" data-name="Email" required="required">
-          <input class="w-button button contact-button" type="submit" value="Submit" data-wait="Please wait...">
+          <input class="w-input contact-field" id="email"  placeholder="Enter your height in centimetres" name="height" data-name="Email" required="required">
+          <input class="w-button button contact-button" type="submit" value="Submit" onClick="calculateBmi()"/>
         </form>
         <div class="w-form-done">
           <p>Thank you! Your submission has been received!</p>
